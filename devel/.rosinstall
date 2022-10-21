@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/pf/MY_projects/Bin2ros_ws/devel/setup.sh

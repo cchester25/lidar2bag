@@ -1,0 +1,5 @@
+<launch>
+  <node name="rospy_rviz" pkg="rospy_rviz" type="rospy_rviz.py" output="screen"/>
+  <param name="file_path" value="$(find rospy_rviz)/data/velodyne/" />
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find rospy_rviz)/rviz/rospy_rviz.rviz" />
+</launch>
