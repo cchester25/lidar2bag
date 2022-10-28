@@ -20,10 +20,10 @@ def save_velo_data(bag, directory ,velo_frame_id, topic):  # velo_frame_id = 'li
 
 
     #velo_path = os.path.join(directory, 'processedmoose/lidar_points')  # path to the velodyne points
-    velo_path = os.path.join(directory, '/media/pf/Elements/MY_PROJECT/lidar_desnow/cadcd/2019_02_27/0002/raw/lidar_points')  # path to the velodyne points
+    velo_path = os.path.join(directory, '/media/pf/Elements/DATA/Snowy_Data/Open_dataset/cadcd/2018_03_06/raw12/raw/lidar_points')  # path to the velodyne points
 
     #velo_data_dir = os.path.join(velo_path, 'data')  # to where the lidar points live
-    velo_data_dir = os.path.join(velo_path, '/media/pf/Elements/MY_PROJECT/lidar_desnow/cadcd/2019_02_27/0002/raw/lidar_points/data')
+    velo_data_dir = os.path.join(velo_path, '/media/pf/Elements/DATA/Snowy_Data/Open_dataset/cadcd/2018_03_06/raw12/raw/lidar_points/data')
 
     velo_filenames = sorted(os.listdir(velo_data_dir))  # get all of them
 
@@ -95,7 +95,7 @@ def main():
 
 
 
-    bag = rosbag.Bag("filtered.bag", 'w',    compression=compression)
+    bag = rosbag.Bag("/media/pf/Elements/DATA/Snowy_Data/Open_dataset/cadcd/2018_03_06/raw12/raw/lidar_points/filtered.bag", 'w',    compression=compression)
 
     try:
 

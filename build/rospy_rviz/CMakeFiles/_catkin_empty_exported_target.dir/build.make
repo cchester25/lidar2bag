@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pf/MY_projects/Bin2ros_ws/src
+CMAKE_SOURCE_DIR = /home/pf/MY_projects/All2ros_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pf/MY_projects/Bin2ros_ws/build
+CMAKE_BINARY_DIR = /home/pf/MY_projects/All2ros_ws/build
 
 # Utility rule file for _catkin_empty_exported_target.
 
@@ -63,10 +63,10 @@ rospy_rviz/CMakeFiles/_catkin_empty_exported_target.dir/build: _catkin_empty_exp
 .PHONY : rospy_rviz/CMakeFiles/_catkin_empty_exported_target.dir/build
 
 rospy_rviz/CMakeFiles/_catkin_empty_exported_target.dir/clean:
-	cd /home/pf/MY_projects/Bin2ros_ws/build/rospy_rviz && $(CMAKE_COMMAND) -P CMakeFiles/_catkin_empty_exported_target.dir/cmake_clean.cmake
+	cd /home/pf/MY_projects/All2ros_ws/build/rospy_rviz && $(CMAKE_COMMAND) -P CMakeFiles/_catkin_empty_exported_target.dir/cmake_clean.cmake
 .PHONY : rospy_rviz/CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 rospy_rviz/CMakeFiles/_catkin_empty_exported_target.dir/depend:
-	cd /home/pf/MY_projects/Bin2ros_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pf/MY_projects/Bin2ros_ws/src /home/pf/MY_projects/Bin2ros_ws/src/rospy_rviz /home/pf/MY_projects/Bin2ros_ws/build /home/pf/MY_projects/Bin2ros_ws/build/rospy_rviz /home/pf/MY_projects/Bin2ros_ws/build/rospy_rviz/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pf/MY_projects/All2ros_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pf/MY_projects/All2ros_ws/src /home/pf/MY_projects/All2ros_ws/src/rospy_rviz /home/pf/MY_projects/All2ros_ws/build /home/pf/MY_projects/All2ros_ws/build/rospy_rviz /home/pf/MY_projects/All2ros_ws/build/rospy_rviz/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : rospy_rviz/CMakeFiles/_catkin_empty_exported_target.dir/depend
 

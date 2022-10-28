@@ -1,8 +1,8 @@
-# Install script for directory: /home/pf/MY_projects/Bin2ros_ws/src/rospy_rviz
+# Install script for directory: /home/pf/MY_projects/All2ros_ws/src/rospy_rviz
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/pf/MY_projects/Bin2ros_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/pf/MY_projects/All2ros_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -46,7 +46,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/rospy_rviz" TYPE PROGRAM FILES "/home/pf/MY_projects/Bin2ros_ws/build/rospy_rviz/catkin_generated/installspace/rospy_rviz.py")
+file(INSTALL DESTINATION "/rospy_rviz" TYPE PROGRAM FILES "/home/pf/MY_projects/All2ros_ws/build/rospy_rviz/catkin_generated/installspace/rospy_rviz.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -58,6 +58,6 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/rospy_rviz" TYPE FILE FILES "/home/pf/MY_projects/Bin2ros_ws/src/rospy_rviz/launch/rospy_rviz.launch")
+file(INSTALL DESTINATION "/rospy_rviz" TYPE FILE FILES "/home/pf/MY_projects/All2ros_ws/src/rospy_rviz/launch/rospy_rviz.launch")
 endif()
 
